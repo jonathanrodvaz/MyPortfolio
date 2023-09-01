@@ -26,7 +26,10 @@ module.exports = {
         'gradient-red':
         'linear-gradient(#FF6B6B)',
         'gradient-grey':
-        'linear-gradient(#afbcc0)'
+        'linear-gradient(#afbcc0)',
+        'green-line':
+        'green(#2b9955)'
+
       }),
       fontFamily: {
         playfair: ['Playfair Display', 'serif'],

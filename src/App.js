@@ -7,7 +7,7 @@ import Projects from './scenes/Projects';
 import Contact from './scenes/Contact';
 import Footer from './scenes/Footer';
 import { useEffect, useState } from "react";
-import LineGradient from './components/LineGradient';
+import LineGreen from './components/LineGreen';
 import useMediaQuery from "./hooks/useMediaQuery";
 
 
@@ -41,19 +41,19 @@ useEffect(() => {
       )}
       <Landing setSelectedPage={setSelectedPage} />
     </div>
-    <LineGradient />
+    <LineGreen />
     {/* <div className='w-5/6 mx-auto md:h-full'>
         <MySkills />
     </div> */}
-    <LineGradient/>
+    <LineGreen/>
     <div className='w-5/6 mx-auto'>
         <Projects />
     </div>
-    <LineGradient/>
+    <LineGreen/>
     {/* <div className='w-5/6 mx-auto md:h-full'>
         <Testimonials />
     </div> */}
-    <LineGradient/>
+    <LineGreen/>
     <div className='w-5/6 mx-auto md:h-full'>
         <Contact />
     </div>

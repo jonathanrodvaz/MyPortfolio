@@ -1,4 +1,4 @@
-import LineGradient from '../components/LineGradient';
+import LineGreen from '../components/LineGreen';
 import useMediaQuery from '../hooks/useMediaQuery';
 import { motion } from 'framer-motion';
 
@@ -23,7 +23,7 @@ const MySkills = () => {
                     <p className='font-playfair font-semibold text-4xl mb-5'>
                         MY <span className='text-red'>SKILLS</span>
                     </p>
-                    <LineGradient width='w-1/3'/>
+                    <LineGreen width='w-1/3'/>
                     <p className='mt-10 mb-7'>
                     Full Stack Developer | HTML, CSS, JAVASCRIPT, NODEjs, Express, ReactJS, NEXTjs, Git , Styled Componet, Vite 
                     </p>

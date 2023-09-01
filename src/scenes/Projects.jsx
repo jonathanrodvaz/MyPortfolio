@@ -1,4 +1,4 @@
-import LineGradient from "../components/LineGradient";
+import LineGreen from "../components/LineGreen";
 import { motion } from "framer-motion";
 
 const container = {
@@ -13,7 +13,7 @@ const projectVariant = {
     visible: { opacity: 1, scale: 1 }
 }
 
-const Project = ({ title }) => {
+const Project = ({ title, subtitle }) => {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
     const projectTitle = title.split(' ').join('-').toLowerCase();
@@ -24,7 +24,7 @@ const Project = ({ title }) => {
             <div className={overlayStyles}>
                 <p className='text-2xl font-playfair'>{title}</p>
                 <p className= 'mt-7'>
-                    Description of a project goes here.
+                    {subtitle}
                 </p>
             </div>
             <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
@@ -49,14 +49,14 @@ const Projects = () => {
                 >
                     <div>
                     <p className='font-playfair font-semibold text-4xl'>
-                        <span className='text-green'>PROJECTS</span>
+                        <span className='text-white'>PROJECTS</span>
                     </p>
                     <div className='flex justify-center mt-5'>
-                    <LineGradient width='w-1/3'/>
+                    <LineGreen width='w-1/3'/>
                     </div>
                     </div>
-                    <p className='mt-10 mb-10'>
-                    General description of projects section goes here
+                    <p className='mt-10 mb-10 text-darkyellow'>
+                    Here you can take a look at my work
                     </p>
                 </motion.div>
                 {/* PROJECTS */}
@@ -70,9 +70,9 @@ const Projects = () => {
                 >
                     {/* ROW 1 */}
                     
-                    <Project title='Project 1'/>
-                    <Project title='Project 2'/>
-                    <Project title='Project 3'/>
+                    <Project title='Project 1' subtitle='Travel website done in React, NodeJs, Express, Vite, MongoDB, Styled Component, CSS3'/>
+                    <Project title='Project 2' subtitle='Freelance-Marketplace website done in React, NodeJs, Express, Vite, MongoDB, Styled Component, CSS3'/>
+                    <Project title='Project 3' subtitle='E-Commerce Front done in HTML'/>
 
                     {/* ROW 2 */}
                     

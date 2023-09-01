@@ -1,4 +1,4 @@
-import LineGradient from "../components/LineGradient";
+import LineGreen from "../components/LineGreen";
 import {useForm} from 'react-hook-form';
 import { motion} from "framer-motion";
 
@@ -33,10 +33,10 @@ return (
                 >
                     <div>
                     <p className='font-playfair font-semibold text-4xl'>
-                        <span className='text-light'>Contact Me</span> To Get Started
+                        <span className='text-darkyellow'>Contact Me</span> To Get Started
                     </p>
                     <div className='flex md:justify-end my-5'>
-                    <LineGradient width='w-1/2'/>
+                    <LineGreen width='w-1/2'/>
                     </div>
                     </div>
                 </motion.div>
@@ -127,7 +127,7 @@ return (
 
                             <button
                             type='submit'
-                            className='p-5 bg-green font-semibold text-deep-blue mt-5 hover:bg-greyblue
+                            className='p-5 bg-green font-semibold text-deep-blue mt-5 hover:bg-darkyellow
                             hover:text-light transition duration-500'
                             >
                                 SEND ME A MESSAGE

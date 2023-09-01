@@ -1,4 +1,4 @@
-import LineGradient from "../components/LineGradient";
+import LineGreen from "../components/LineGreen";
 import { motion } from "framer-motion";
 
 const Testimonials = () => {
@@ -23,7 +23,7 @@ const Testimonials = () => {
                     <p className='font-playfair font-semibold text-4xl mb-5 text-red'>
                         TESTIMONIALS
                     </p>
-                    <LineGradient width='mx-auto w-2/4'/>
+                    <LineGreen width='mx-auto w-2/4'/>
                     <p className='mt-10'>
                     Here's What People Are Saying About My Work:
                     </p>
