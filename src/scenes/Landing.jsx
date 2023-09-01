@@ -1,4 +1,4 @@
-import SocialMediaIcons from "../components/SocialMediaIcons"; '../components/SocialMediaIcons';
+import SocialMediaIcons from "../components/SocialMediaIcons";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
@@ -20,7 +20,7 @@ return (
                 
                 <img 
                 alt='profile'
-                className='hover:filter hover:saturate-150 transition duration-500 z-10 w-full
+                className='hover:filter hover:grayscale transition duration-500 z-10 w-full
                 max-w-[400px] md:max-w-[600px]'
                 src='assets/profile-image.png'
                 />
