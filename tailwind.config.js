@@ -31,6 +31,8 @@ module.exports = {
         'green(#2b9955)'
 
       }),
+
+      
       fontFamily: {
         playfair: ['Playfair Display', 'serif'],
         opensans: ['Open Sans', 'sans-serif']
