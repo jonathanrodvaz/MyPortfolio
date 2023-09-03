@@ -71,7 +71,7 @@ return (
                         <form
                         target='_blank'
                         onSubmit={onSubmit}
-                        action='https://formsubmit.co/aquivatudirecciondemail@gmail.com'
+                        action='https://formsubmit.co/jonathanrodvazquez@gmail.com'
                         method='POST'
                         >
                             <input 
