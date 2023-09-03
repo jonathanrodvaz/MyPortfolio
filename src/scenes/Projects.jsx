@@ -32,7 +32,7 @@ const Project = ({ title, subtitle, websiteUrl }) => {
                 </p>
             </div>
             <div className="w-84 h-82 p-1 flex justify-center items-center">
-            <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+            <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
             </div>
         </motion.div>
         </a>
