@@ -60,7 +60,8 @@ return (
                         </span>
                     </p>
                     <p className='mt-10 mb-7 text-darkyellow text-sm text-center md:text-start'>
-                    I'm a full stack developer with a passion for technology and problem solving  
+                    I'm a full stack developer with a passion for technology and problem solving. 
+                    Currently living in La Coruña, Galicia.  
                     </p>
                 </motion.div>
                {/* call to actions */}

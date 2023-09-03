@@ -11,6 +11,7 @@ import LineGreen from './components/LineGreen';
 import useMediaQuery from "./hooks/useMediaQuery";
 import { motion } from 'framer-motion';
 
+
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
   const [isTopOfPage, setIsTopOfPage] = useState(true);
